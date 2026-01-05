@@ -1,0 +1,32 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Dependencies
+node_modules/
+backend/venv/
+backend/.venv/
+
+# Build artifacts
+frontend/dist/
+dist/
+build/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# IDE & Editor
+.vscode/
+.idea/
+.gemini/
+.agents/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
